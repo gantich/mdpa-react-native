@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "59871946403",
+    "firebase_url": "https://inforbornchat.firebaseio.com",
+    "project_id": "inforbornchat",
+    "storage_bucket": "inforbornchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59871946403:android:7d90110ad19fe96c",
+        "android_client_info": {
+          "package_name": "info.rborn.mdpachat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59871946403-4mikn73dufjnju7h0c3u3309ogg5m910.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIyTBLAZpt0DJzGmhowq-gYKo1x7sKvPs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

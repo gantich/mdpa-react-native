@@ -1,0 +1,58 @@
+{
+    "parser": "babel-eslint",
+    "plugins": ["react", "react-native", "prettier"],
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true,
+            "arrowFunctions": true,
+            "blockBindings": true,
+            "classes": true,
+            "defaultParameters": true,
+            "destructuring": true,
+            "forOf": true,
+            "generators": true,
+            "objectLiteralComputedProperties": true,
+            "objectLiteralDuplicateProperties": true,
+            "objectLiteralShorthandMethods": true,
+            "objectLiteralShorthandProperties": true,
+            "regexUFlag": true,
+            "regexYFlag": true,
+            "restParams": true,
+            "spread": true,
+            "superInFunctions": true,
+            "templateStrings": true,
+            "unicodeCodePointEscapes": true,
+            "globalReturn": true,
+            "experimentalObjectRestSpread": true,
+            "experimentalDecorators": true
+        },
+        "ecmaVersion": 8,
+        "sourceType": "module"
+    },
+    "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+    "settings": {
+        "import/resolver": {
+            "babel-module": {}
+        }
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "no-console": "off",
+        "max-len": ["error", 200],
+        "comma-dangle": "off",
+        "react/no-unescaped-entities": "off",
+        "no-extra-boolean-cast": "off"
+    },
+    "globals": {
+        "require": true,
+        "module": true
+    }
+}
